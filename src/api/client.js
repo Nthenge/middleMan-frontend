@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://middleman-rt60.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://middlemanbackend-b0mm.onrender.com";
 
 export class ApiError extends Error {
   constructor(message, status) {
