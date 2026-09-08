@@ -83,11 +83,11 @@ export default function Dashboard() {
       <main className="dash-main">
         <div className="dash-titlebar">
           <div>
-            <div className="dash-eyebrow mono">$ ls apps</div>
+            <div className="dash-eyebrow mono">$ Your apps</div>
             <h1 className="dash-title">Your apps</h1>
             <p className="dash-subtitle">
               Each app gets its own validation and confirmation endpoints. Register those
-              with Safaricom, and callbacks route straight to your backend.
+              with Safaricom, and callbacks route straight to your backend. All response json data is forwarded as it is received.
             </p>
           </div>
           <button type="button" className="btn btn-primary" onClick={openCreate}>

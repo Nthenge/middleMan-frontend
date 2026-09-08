@@ -66,12 +66,12 @@ export default function AppFormPanel({ open, initial, onClose, onSubmit }) {
 
           <div className="auth-field">
             <label className="field-label" htmlFor="validation-url">
-              Your validation URL
+              Your validation URL, Must be Publicly Accessible
             </label>
             <input
               id="validation-url"
               className="field-input"
-              placeholder="https://your-backend.com/validate"
+              placeholder="http://your-backend.com/validate"
               required
               value={validationUrl}
               onChange={(e) => setValidationUrl(e.target.value)}
@@ -80,12 +80,12 @@ export default function AppFormPanel({ open, initial, onClose, onSubmit }) {
 
           <div className="auth-field">
             <label className="field-label" htmlFor="confirmation-url">
-              Your confirmation URL
+              Your confirmation URL, Must be Publicly Accessible
             </label>
             <input
               id="confirmation-url"
               className="field-input"
-              placeholder="https://your-backend.com/confirm"
+              placeholder="http://your-backend.com/confirm"
               required
               value={confirmationUrl}
               onChange={(e) => setConfirmationUrl(e.target.value)}
